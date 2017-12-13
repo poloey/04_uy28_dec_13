@@ -1,0 +1,31 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: red;
+}
+header ul {
+  margin: 0;
+  padding: 0;
+}
+.contentbox {
+  overflow: hidden;
+}
+.content {
+  background: green;
+  width: 70%;
+  float: left;
+}
+aside {
+  background: blue;
+  width: 30%;
+  float: left;
+}
+aside ul {
+  margin: 0;
+}
+footer {
+  background: tomato;
+  clear: left;
+}
