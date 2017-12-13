@@ -1,10 +1,12 @@
-
 <style>
   .parent {
     overflow: hidden;
   }
   .child {
     float: left;
+    width: 33%;
+    padding: 20px;
+    box-sizing: border-box;
   }
   .parent-sibling {
     clear: both;
