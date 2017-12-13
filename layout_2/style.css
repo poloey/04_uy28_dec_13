@@ -1,0 +1,99 @@
+body {
+  width: 80%;
+  margin: auto;
+  padding: 0;
+}
+header {
+  background: dodgerblue;
+  overflow: hidden;
+}
+.header-left {
+  float: left;
+  color: white;
+  font-size: 30px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.header-right {
+  float: right;
+}
+header ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header ul li {
+  float: left;
+  border-right: 2px solid #fff;
+}
+header ul li:last-child {
+  border: none;
+}
+header ul li a{
+  padding: 20px;
+  display: inline-block;
+  background: salmon;
+  color: white;
+  text-decoration: none;
+  transition: background 500ms;
+}
+header ul li a:hover{
+  background: teal;
+}
+
+.contentbox {
+  clear: both;
+  overflow: hidden;
+}
+
+.content {
+  float: left;
+  width: 70%;
+  padding: 20px;
+  box-sizing: border-box;
+  background: green;
+}
+
+aside {
+  float: left;
+  width: 30%;
+  background: blue;
+}
+aside h2 {
+  color: white;
+  border-bottom: 2px solid #fff;
+  padding: 20px;
+}
+aside ul {
+  color: white;
+  list-style-type: square;
+}
+
+aside ul li {
+  border-bottom: 2px solid #eee;
+}
+aside ul li:last-child {
+  border: none;
+}
+aside ul li a {
+  color: white;
+  padding: 10px 0;
+  display: inline-block;
+  text-decoration: none;
+}
+
+aside ul li a:hover {
+
+}
+footer {
+  clear: both;
+  background: black;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+  padding: 0;
+}

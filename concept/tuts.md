@@ -4,7 +4,7 @@
     overflow: hidden;
   }
   .child {
-    float: right;
+    float: left;
   }
   .parent-sibling {
     clear: both;
